@@ -10,4 +10,4 @@ jString is a javascript library extending String object with frequently needed m
 
 * Add it in the HTML file
 
-'<script src="jstring.js" type="text/javascript" language="javascript"></script>'
+`<script src="jstring.js" type="text/javascript" language="javascript"></script>`

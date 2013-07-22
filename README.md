@@ -1,7 +1,10 @@
 jString.js
 ==========
 
-jString is a javascript library extending String object with frequently needed methods
+jString is a javascript library extending String object with frequently needed methods.
+
+Read more @ [hmkcode.com](http://hmkcode.com/jstring-js-light-javascript-string-library/).
+
 
 
 ### How to Include jString.js in your HTML File

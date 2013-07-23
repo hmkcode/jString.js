@@ -31,11 +31,11 @@ Read more @ [hmkcode.com](http://hmkcode.com/jstring-js-light-javascript-string-
 
 ##### ( 4 ) String.clear()
 
-` normal   text ".clear(); \\ return "normal text"`
+`" normal   text ".clear(); \\ return "normal text"`
 
 ##### ( 5 ) String.endsWith()
 
-`normal text".endsWtih("ext"); \\ return true`
+`"normal text".endsWith("ext"); \\ return true`
 
 ##### ( 6 ) String.insert()
 

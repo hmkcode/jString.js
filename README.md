@@ -27,16 +27,20 @@ Read more @ [hmkcode.com](http://hmkcode.com/jstring-js-light-javascript-string-
 
 ##### ( 3 ) String.capitalize()
 
-`"normal text".capitalize(); \\ return "Normal text"`
+`"normal TEXT".capitalize(); \\ return "Normal text"`
 
 ##### ( 4 ) String.clear()
 
 `" normal   text ".clear(); \\ return "normal text"`
 
-##### ( 5 ) String.endsWith()
+##### ( 5 ) String.startsWith()
+
+`"normal text".startsWith("nor"); \\ return true`
+
+##### ( 6 ) String.endsWith()
 
 `"normal text".endsWith("ext"); \\ return true`
 
-##### ( 6 ) String.insert()
+##### ( 7 ) String.insert()
 
 `"normal text".insert("X", 4); \\ return "normXal text"`

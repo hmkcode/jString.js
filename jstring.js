@@ -4,36 +4,56 @@ String.prototype.contains = function(text){
 		else if(text == null) return false;
 		else return this.indexOf(text) !== -1;
 }	
+
 // ( 2 ) String.count()
 String.prototype.count = function(text){
-		if(this.contains(text)){
+		if(this.contains(text))
 			return this.split(text).length-1;
-		}
 		else
 			return 0;
 }
+
 // ( 3 ) String.capitalize()
 String.prototype.capitalize = function(){
 		if(this == '') return str;
 	    else return this.charAt(0).toUpperCase() + this.slice(1).toLowerCase();
 }
-// ( 4 ) String.clear()
-String.prototype.clear = function(){
-     	return this.trim().replace(/\s+/g, ' ');
+
+// ( 4 ) String.trim()
+String.prototype.trim = function(){
+     	return this.replace(/^\s+|\s+$/g, '');
 }
-// ( 5 ) String.startsWith()
+
+// ( 5 ) String.leftTrim()
+String.prototype.leftTrim =function(){
+	return this.replace(/^\s+/,'');
+}
+
+// ( 6 ) String.rightTrim()
+String.prototype.rightTrim=function(){
+	return this.replace(/\s+$/,'');
+}
+
+// ( 7 ) String.clear()
+String.prototype.clear = function(){
+     	return this.replace(/^\s+|\s+$/g, '').replace(/\s+/g, ' ');
+}
+
+// ( 8 ) String.startsWith()
 String.prototype.startsWith = function(start) {
 	if(start == '') return true;
 	else if(start == null || start.length > this.length) return false;
     else return this.substring(0,start.length) == start;
 }
-// ( 6 ) String.endsWith()
+
+// ( 9 ) String.endsWith()
 String.prototype.endsWith = function(end) {
 	if(end == '') return true;
 	else if(end == null || end.length > this.length) return false;
     else return this.indexOf(end, this.length - end.length) !== -1;
 }
-// ( 7 ) String.insert()
+
+// ( 10 ) String.insert()
 String.prototype.insert = function(text,at) {
 	if(at == null || at > this.length)
 		at = this.length;

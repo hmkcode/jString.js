@@ -45,7 +45,9 @@ Read more @ [hmkcode.com](http://hmkcode.com/jstring-js-light-javascript-string-
 
 ##### ( 7 ) String.clear()
 
-`" normal   text ".clear(); \\ return "normal text"`
+clear: will trim() + remove (+1) white-spaces in between
+
+`" normal    text ".clear(); \\ return "normal text"`
 
 ##### ( 8 ) String.startsWith()
 

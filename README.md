@@ -15,6 +15,8 @@ Read more @ [hmkcode.com](http://hmkcode.com/jstring-js-light-javascript-string-
 
 `<script src="jstring.js" type="text/javascript" language="javascript"></script>`
 
+* Congratulations! your String has more methods
+
 ### jString.js Methods
 
 ##### ( 1 ) String.contains()
@@ -29,18 +31,30 @@ Read more @ [hmkcode.com](http://hmkcode.com/jstring-js-light-javascript-string-
 
 `"normal TEXT".capitalize(); \\ return "Normal text"`
 
-##### ( 4 ) String.clear()
+##### ( 4 ) String.trim()
+
+`" normal text ".trim(); \\ return "normal text"`
+
+##### ( 5 ) String.leftTrim()
+
+`" normal text".leftTrim(); \\ return "normal text"`
+
+##### ( 6 ) String.rightTrim()
+
+`"normal text ".rightTrim(); \\ return "normal text"`
+
+##### ( 7 ) String.clear()
 
 `" normal   text ".clear(); \\ return "normal text"`
 
-##### ( 5 ) String.startsWith()
+##### ( 8 ) String.startsWith()
 
 `"normal text".startsWith("nor"); \\ return true`
 
-##### ( 6 ) String.endsWith()
+##### ( 9 ) String.endsWith()
 
 `"normal text".endsWith("ext"); \\ return true`
 
-##### ( 7 ) String.insert()
+##### ( 10 ) String.insert()
 
 `"normal text".insert("X", 4); \\ return "normXal text"`

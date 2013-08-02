@@ -15,7 +15,7 @@ String.prototype.count = function(text){
 
 // ( 3 ) String.capitalize()
 String.prototype.capitalize = function(){
-		if(this == '') return str;
+	    if(this == '') return this;
 	    else return this.charAt(0).toUpperCase() + this.slice(1).toLowerCase();
 }
 

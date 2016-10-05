@@ -60,3 +60,7 @@ clear: will trim() + remove (+1) white-spaces in between
 ##### ( 10 ) String.insert()
 
 `"normal text".insert("X", 4); \\ return "normXal text"`
+
+##### ( 11 ) String.delete()
+
+'"xhello xworxld".delelte('x'); \\return "hello world"

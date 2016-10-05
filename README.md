@@ -63,4 +63,4 @@ clear: will trim() + remove (+1) white-spaces in between
 
 ##### ( 11 ) String.delete()
 
-'"xhello xworxld".delelte('x'); \\return "hello world"
+`"xhello xworxld".delelte('x'); \\ return "hello world"`

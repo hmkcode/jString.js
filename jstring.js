@@ -62,3 +62,22 @@ String.prototype.insert = function(text,at) {
 	
 	return this.substring(0,at)+text+this.substring(at);
 }
+
+/*
+ * update 2016/10//04
+ */
+//(11)String.delete()
+String.prototype.delete=function(text){
+	if(!this.contains(text))
+		return this;
+	var ary=this.split("");
+	for(var i=0;i<ary.length;++i){
+		if(ary[i] == text){
+			ary.splice(i,1);
+		}
+	}
+	return ary.join("");
+}
+
+
+
